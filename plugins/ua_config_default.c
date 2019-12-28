@@ -66,10 +66,10 @@ const UA_ConnectionConfig UA_ConnectionConfig_default = {
 
 #define MANUFACTURER_NAME "open62541"
 #define PRODUCT_NAME "open62541 OPC UA Server"
-#define PRODUCT_URI "http://open62541.org"
-#define APPLICATION_NAME "open62541-based OPC UA Application"
-#define APPLICATION_URI "urn:unconfigured:application"
-#define APPLICATION_URI_SERVER "urn:open62541.server.application"
+#define PRODUCT_URI "superlambchops.com"
+#define APPLICATION_NAME "my_product"
+#define APPLICATION_URI "urn:superlambchops:app"
+#define APPLICATION_URI_SERVER "urn:superlambchops:app"
 
 #define STRINGIFY(arg) #arg
 #define VERSION(MAJOR, MINOR, PATCH, LABEL) \
